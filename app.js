@@ -10,7 +10,7 @@ var msg = process.env.CONFIG;
 
 app.get('/', function (req, res) {
 
-    response = 'Configuration's content is: => ' + msg + '\n';
+    response = 'The content of the configuration is: => ' + msg + '\n';
 
     // Read in the secret file
     fs.readFile('/opt/app-root/secure/secdata.sec', 'utf8', function (secerr,secdata) {
