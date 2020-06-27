@@ -1,0 +1,12 @@
+{
+  "name": "node-js-config",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with config and secret",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.14.x"
+  }
+}
